@@ -33,10 +33,13 @@ All examples below should generate identical output:
     Scientific name: Homo sapiens
     GlobalNames UUID: 16f235a0-e4a3-529c-9b83-bd15fe722110
 
+Please note that you might need to install corresponding languages to
+be able to run the examples
+
 Go Language example
 -------------------
 
-Go to go directory
+Change to go directory
 
     cd go
 
@@ -67,6 +70,27 @@ Then run example with
 
    java -cp commons-id.jar:. GlobalNamesUUID "Homo sapiens"
 
+PHP example
+-----------
+
+Go to php directory
+
+    cd php
+
+Run example with
+
+    php gn_uuid.php "Homo sapiens"
+
+Python example
+--------------
+
+Go to python directory
+
+    cd python
+
+Run example with
+
+    ./gn_uuid.py "Homo sapiens"
 
 Ruby example
 ------------
