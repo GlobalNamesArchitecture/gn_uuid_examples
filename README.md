@@ -33,6 +33,25 @@ All examples below should generate identical output:
     Scientific name: Homo sapiens
     GlobalNames UUID: 16f235a0-e4a3-529c-9b83-bd15fe722110
 
+Go Language example
+-------------------
+
+Go to go directory
+
+    cd go
+
+Get uuid package
+
+    go get github.com/satori/go.uuid
+
+Build go executable
+
+    go build gn_uuid.go
+
+Run compiled example
+
+    ./gn_uuid "Homo sapiens"
+
 Java example
 ------------
 
@@ -44,15 +63,15 @@ Compile java code
 
     javac -cp commons-id.jar GlobalNamesUUID.java
 
-Then run example with 
+Then run example with
 
    java -cp commons-id.jar:. GlobalNamesUUID "Homo sapiens"
 
 
-Ruby
-----
+Ruby example
+------------
 
-Go to ruby directory 
+Go to ruby directory
 
     cd ruby
 
@@ -61,3 +80,4 @@ Execute example with
     ./gn_uuid.rb "Homo sapiens"
 
 [1]: http://www.ietf.org/rfc/rfc4122.txt
+
